@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "isolatedModules": true,
+    "lib": ["es2015", "dom"],
+    "jsx": "react",
+    "types": ["node", "jest"],
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "noEmit": true,
+    "strict": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"],
+  "compileOnSave": false
+}

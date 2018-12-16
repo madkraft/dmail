@@ -1,0 +1,20 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:latest",
+    "tslint-react",
+    "tslint-react-a11y",
+    "tslint-config-prettier"
+  ],
+  "jsRules": {},
+  "rules": {
+    "ordered-imports": false,
+    "no-implicit-dependencies": [true, "dev"],
+    "interface-name": false,
+    "typedef": [true, "call-signature", "parameter", "arrow-parameter"]
+  },
+  "rulesDirectory": [],
+  "linterOptions": {
+    "exclude": ["**/node_modules/**"]
+  }
+}
